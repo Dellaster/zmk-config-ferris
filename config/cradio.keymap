@@ -56,6 +56,7 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
+
         tri_layer {
             if-layers = <1 2>;
             then-layer = <3>;
@@ -67,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp SQT        &kp COMMA  &kp PERIOD  &kp P            &kp Y          &kp F      &kp G      &kp C  &kp R  &kp L
-&kp A          &kp O      &kp E       &kp U            &kp I          &kp D      &kp H      &kp T  &kp N  &kp S
-&kp SEMICOLON  &kp Q      &kp J       &kp K            &kp X          &kp B      &kp M      &kp W  &kp V  &kp Z
-                                      &lt 1 BACKSPACE  &kp LSHFT  &kp SPACE  &lt 2 RET
+&kp SQT        &mt QUESTION COMMA  &mt EXCL PERIOD  &kp P            &kp Y        &kp F      &kp G      &kp C  &kp R  &kp L
+&kp A          &kp O               &kp E            &kp U            &kp I        &kp D      &kp H      &kp T  &kp N  &kp S
+&kp SEMICOLON  &kp Q               &kp J            &kp K            &kp X        &kp B      &kp M      &kp W  &kp V  &kp Z
+                                                    &lt 1 BACKSPACE  &kp LSHFT    &kp SPACE  &lt 2 RET
             >;
         };
 
