@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp SQT        &mt QUESTION COMMA  &mt EXCL PERIOD  &kp P            &kp Y        &kp F      &kp G      &kp C  &kp R  &kp L
-&kp A          &kp O               &kp E            &kp U            &kp I        &kp D      &kp H      &kp T  &kp N  &kp S
-&kp SEMICOLON  &kp Q               &kp J            &kp K            &kp X        &kp B      &kp M      &kp W  &kp V  &kp Z
-                                                    &lt 1 BACKSPACE  &kp LSHFT    &kp SPACE  &lt 2 RET
+&kp W  &kp L  &kp R  &kp B            &kp Z                 &kp SQT                 &kp Q      &kp U  &kp D  &kp J
+&kp S  &kp H  &kp N  &kp T            &mt QUESTION COMMA    &mt EXCLAMATION PERIOD  &kp A      &kp E  &kp O  &kp I
+&kp F  &kp M  &kp V  &kp C            &kp MINUS             &kp G                   &kp P      &kp X  &kp K  &kp Y
+                     &lt 1 BACKSPACE  &kp LSHFT             &kp SPACE               &lt 2 RET
             >;
         };
 
