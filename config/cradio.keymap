@@ -63,28 +63,28 @@
 
         default_layer {
             bindings = <
-&kp P  &kp L  &kp D  &kp G            &kp V      &kp COMMA   &kp F      &kp O  &kp SQT    &kp Y
-&kp N  &kp R  &kp T  &kp S            &kp B      &kp PERIOD  &kp U      &kp A  &kp E      &kp I
-&kp Z  &kp X  &kp M  &kp C            &kp W      &kp K       &kp H      &kp Q  &kp MINUS  &kp J
-                     &lt 1 BACKSPACE  &kp TAB    &kp SPACE   &lt 2 RET
+&kp P  &kp L  &kp D  &kp G            &kp V    &kp COMMA   &kp F      &kp O  &kp SQT    &kp Y
+&kp N  &kp R  &kp T  &kp S            &kp B    &kp PERIOD  &kp U      &kp A  &kp E      &kp I
+&kp Z  &kp X  &kp M  &kp C            &kp W    &kp K       &kp H      &kp Q  &kp MINUS  &kp J
+                     &lt 1 BACKSPACE  &mo 4    &kp SPACE   &lt 2 RET
             >;
         };
 
         left_layer {
             bindings = <
-&kp ESCAPE  &none         &none          &none      &none     &kp ASTERISK  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp F10
-&sk LCTRL   &sk LC(LALT)  &sk LEFT_META  &sk LSHFT  &none     &kp PLUS      &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp F11
-&none       &none         &none          &none      &none     &kp SLASH     &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp F12
-                                         &mo 1      &trans    &trans        &kp N0
+&kp ESCAPE  &none          &none      &none     &none      &kp ASTERISK  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp F10
+&none       &sk LC(LMETA)  &sk LCTRL  &sk LALT  &kp TAB    &kp PLUS      &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp F11
+&none       &none          &none      &none     &none      &kp SLASH     &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp F12
+                                      &mo 1     &trans     &trans        &kp N0
             >;
         };
 
         right_layer {
             bindings = <
-&kp ESCAPE  &kp AT_SIGN    &kp HASH       &kp DLLR               &kp PERCENT       &none   &none      &none      &none     &none
-&kp HASH    &kp QMARK      &kp FSLH       &kp EXCL               &kp QUESTION      &none   &sk RSHFT  &sk RMETA  &sk RALT  &sk RCTRL
-&kp TAB     &kp SEMICOLON  &mt RPAR LPAR  &mt RBKT LEFT_BRACKET  &mt BSLH SLASH    &none   &none      &none      &none     &none
-                                          &mo 1                  &trans            &trans  &mo 2
+&kp ESCAPE  &kp AT_SIGN    &kp HASH       &kp DLLR               &kp PERCENT       &none    &none     &none      &none      &none
+&kp HASH    &kp QMARK      &kp FSLH       &kp EXCL               &kp QUESTION      &kp TAB  &sk RALT  &sk RCTRL  &sk RMETA  &none
+&kp CAPS    &kp SEMICOLON  &mt RPAR LPAR  &mt RBKT LEFT_BRACKET  &mt BSLH SLASH    &none    &none     &none      &none      &none
+                                          &mo 1                  &trans            &trans   &mo 2
             >;
         };
 
