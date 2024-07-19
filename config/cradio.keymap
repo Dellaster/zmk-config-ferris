@@ -119,7 +119,7 @@
             >;
         };
 
-        SHIFT {
+        UPPER {
             bindings = <
 &kp LS(P)  &kp LS(L)  &kp LS(D)  &kp LS(G)  &kp LS(V)    &kp QUESTION  &kp LS(F)  &kp LS(O)  &kp DOUBLE_QUOTES  &kp LS(Y)
 &kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)  &kp LS(B)    &kp EXCL      &kp LS(U)  &kp LS(A)  &kp LS(E)          &kp LS(I)
