@@ -1,7 +1,10 @@
-Untested. Unfinished. WORK IN PROGRESS (BROKEN)-- FORK AT YOUR OWN RISK
+WORK IN PROGRESS
 
+34-key Ferris Sweep Bling firmware using the Rustic keyboard layout.
+https://github.com/Keyhabit/Rustic-keyboard-layout
 
-![image](https://github.com/user-attachments/assets/b9fdb005-fbb3-49f6-b8d2-584343ee144c)
+![my_keymap](https://github.com/user-attachments/assets/a6882c8b-c045-4320-9ddd-bbad8aded4ca)
+
 
 
 
