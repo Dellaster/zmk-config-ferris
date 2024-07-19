@@ -96,5 +96,14 @@
                                     &trans        &trans          &trans       &trans
             >;
         };
+
+        SHIFT {
+            bindings = <
+&kp LS(P)  &kp LS(L)  &kp LS(D)  &kp LS(G)  &kp LS(V)    &kp QUESTION  &kp LS(F)  &kp LS(O)  &kp DOUBLE_QUOTES  &kp LS(Y)
+&kp LS(N)  &kp LS(R)  &kp LS(T)  &kp LS(S)  &kp LS(B)    &kp EXCL      &kp LS(U)  &kp LS(A)  &kp LS(E)          &kp LS(I)
+&kp LS(Z)  &kp LS(X)  &kp LS(M)  &kp LS(C)  &kp LS(W)    &kp LS(K)     &kp LS(H)  &kp LS(Q)  &kp ASTRK          &kp LS(J)
+                                 &trans     &trans       &trans        &trans
+            >;
+        };
     };
 };
