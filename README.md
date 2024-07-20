@@ -1,9 +1,8 @@
 WORK IN PROGRESS
 
-34-key Ferris Sweep Bling firmware using the Rustic keyboard layout.
-https://github.com/Keyhabit/Rustic-keyboard-layout
+34-key Ferris Sweep Bling firmware using the aptV4 keyboard layout.
 
-![image](https://github.com/user-attachments/assets/476ff701-2c93-4ff1-b30b-cafe5103ae22)
+![image](https://github.com/user-attachments/assets/815a2bab-14bc-4473-98f2-be42cc77adb8)
 
 With much thanks to nickcoutsos for the Keymap Editor. https://nickcoutsos.github.io/keymap-editor/
 
