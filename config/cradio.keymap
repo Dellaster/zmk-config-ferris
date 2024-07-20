@@ -24,17 +24,6 @@
 };
 
 / {
-    behaviors {
-        el_upel: ell_upperel {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp l>, <&kp L>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-    };
-};
-
- {
     combos {
         compatible = "zmk,combos";
 
