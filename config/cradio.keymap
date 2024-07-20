@@ -121,7 +121,7 @@
 
         UPPER {
             bindings = <
-&kp LS(W)  &kp LS(G)  &kp LS(D)  &kp LS(F)  &kp LS(K)    &kp LS(Q)  &kp LS(L)     &kp LS(U)          &kp LS(O)  &kp Y
+&kp LS(W)  &kp LS(G)  &kp LS(D)  &kp LS(F)  &kp LS(K)    &kp LS(Q)  &kp LS(L)     &kp LS(U)          &kp LS(O)  &kp LS(Y)
 &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(H)  &kp LS(K)    &kp LS(J)  &kp LS(N)     &kp LS(E)          &kp LS(A)  &kp LS(I)
 &kp LS(X)  &kp LS(C)  &kp LS(B)  &kp LS(M)  &kp LS(Q)    &kp LS(Z)  &kp QUESTION  &kp DOUBLE_QUOTES  &kp EXCL   &kp ASTRK
                                  &trans     &trans       &trans     &trans
