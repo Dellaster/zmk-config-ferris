@@ -85,9 +85,9 @@
 
         default_layer {
             bindings = <
-&kp W  &kp G  &kp D  &kp L            &kp V    &kp J      &kp Y      &kp O      &kp U       &kp SQT
-&kp R  &kp S  &kp T  &kp H            &kp K    &kp P      &kp N      &kp E      &kp I       &kp A
-&kp X  &kp C  &kp B  &kp M            &kp Q    &kp Z      &kp F      &kp COMMA  &kp PERIOD  &kp MINUS
+&kp W  &kp G  &kp D  &kp F            &kp K    &kp Q      &kp L      &kp U    &kp O       &kp Y
+&kp R  &kp S  &kp T  &kp H            &kp B    &kp J      &kp N      &kp E    &kp A       &kp I
+&kp X  &kp C  &kp M  &kp P            &kp V    &kp Z      &kp COMMA  &kp SQT  &kp PERIOD  &kp MINUS
                      &lt 1 BACKSPACE  &sl 4    &kp SPACE  &lt 2 RET
             >;
         };
@@ -121,9 +121,9 @@
 
         UPPER {
             bindings = <
-&kp LS(W)  &kp LS(G)  &kp LS(D)  &kp LS(L)  &kp LS(V)    &kp LS(J)  &kp LS(Y)  &kp LS(O)     &kp LS(U)  &kp DOUBLE_QUOTES
-&kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(H)  &kp LS(K)    &kp LS(P)  &kp LS(N)  &kp LS(E)     &kp LS(I)  &kp LS(A)
-&kp LS(X)  &kp LS(C)  &kp LS(B)  &kp LS(M)  &kp LS(Q)    &kp LS(Z)  &kp LS(F)  &kp QUESTION  &kp EXCL   &kp ASTRK
+&kp LS(W)  &kp LS(G)  &kp LS(D)  &kp LS(F)  &kp LS(K)    &kp LS(Q)  &kp LS(L)     &kp LS(U)          &kp LS(O)  &kp Y
+&kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(H)  &kp LS(K)    &kp LS(J)  &kp LS(N)     &kp LS(E)          &kp LS(A)  &kp LS(I)
+&kp LS(X)  &kp LS(C)  &kp LS(B)  &kp LS(M)  &kp LS(Q)    &kp LS(Z)  &kp QUESTION  &kp DOUBLE_QUOTES  &kp EXCL   &kp ASTRK
                                  &trans     &trans       &trans     &trans
             >;
         };
