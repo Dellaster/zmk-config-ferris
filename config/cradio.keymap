@@ -85,6 +85,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        apos_star: apos_star {
+            compatible = "zmk,behavior-mod-morph";
+            label = "APOS_STAR";
+            bindings = <&kp SQT>, <&kp ASTERISK>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        quo_hash: quo_hash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUO_HASH";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp HASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     conditional_layers {
