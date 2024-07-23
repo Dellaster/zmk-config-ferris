@@ -165,10 +165,10 @@
 
         default_layer {
             bindings = <
-&as J  &as F  &as M  &as P    &as V                  &as Z           &as U        &as O     &as Y  &as K
-&as R  &as S  &as N  &as D    &as W                  &as COMMA       &as A        &as E     &as I  &as H
-&as X  &as G  &as L  &as C    &as B                  &as MINUS       &as PERIOD   &as FSLH  &as Q  &as SQT
-                     &lt 1 T  &mt LCTRL BACKSPACE    &mt LALT ENTER  &lt 2 SPACE
+&kp J  &kp F  &kp M  &kp P         &kp V              &kp Z        &kp U            &kp O     &kp Y  &kp K
+&kp R  &kp S  &kp N  &kp D         &kp W              &comma_ques  &kp A            &kp E     &kp I  &kp H
+&kp X  &kp G  &kp L  &kp C         &kp B              &star_hash   &dot_exc         &dash_at  &kp Q  &kp SQT
+                     &mt LSHIFT T  &lt 1 BACKSPACE    &lt 2 ENTER  &mt RSHFT SPACE
             >;
         };
 
