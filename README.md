@@ -2,7 +2,7 @@ WORK IN PROGRESS
 
 34-key Sweep wireless firmware. Hands Down Gold keyboard layout.
 
-![image](https://github.com/user-attachments/assets/96a4de83-41f3-4a80-a692-858ebc8ac2de)
+![image](https://github.com/user-attachments/assets/b7e76fe8-3d9d-4f07-ae9f-61b8e73cd554)
 
 With much thanks to nickcoutsos for the Keymap Editor. https://nickcoutsos.github.io/keymap-editor/
 
