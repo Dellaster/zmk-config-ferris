@@ -121,6 +121,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
         };
+
+        combo_bootleft {
+            bindings = <&bootloader>;
+            key-positions = <3 4>;
+        };
+
+        combo_bootright {
+            bindings = <&bootloader>;
+            key-positions = <6 5>;
+        };
     };
 
     keymap {
