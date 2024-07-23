@@ -140,7 +140,7 @@
             bindings = <
 &kp J  &kp F  &kp M  &kp P         &kp V              &kp Z        &kp U            &kp O     &kp Y  &kp K
 &kp R  &kp S  &kp N  &kp D         &kp W              &comma_ques  &kp A            &kp E     &kp I  &kp H
-&kp X  &kp G  &kp L  &kp C         &kp B              &star_hash   &dot_exc         &dash_at  &kp Q  &kp SQT
+&kp X  &kp G  &kp L  &kp C         &kp B              &quo_hash    &dot_exc         &dash_at  &kp Q  &apos_star
                      &mt LSHIFT T  &lt 1 BACKSPACE    &lt 2 ENTER  &mt RSHFT SPACE
             >;
         };
@@ -157,7 +157,7 @@
         sym_layer {
             bindings = <
 &kp LBRC   &kp RBRC         &kp LPAR            &kp RPAR         &none            &none          &kp N7         &kp N8            &kp N9        &kp RA(W)
-&kp GRAVE  &lh LCTRL MINUS  &lh LEFT_ALT EQUAL  &lh LSHIFT APOS  &none            &kp BACKSLASH  &rh RSHIFT N4  &rh RIGHT_ALT N5  &rh RCTRL N6  &kp RA(L)
+&kp GRAVE  &lh LCTRL MINUS  &lh LEFT_ALT EQUAL  &lh LSHIFT APOS  &kp FSLH         &kp BACKSLASH  &rh RSHIFT N4  &rh RIGHT_ALT N5  &rh RCTRL N6  &kp RA(L)
 &kp LT     &kp GT           &kp LBKT            &kp RBKT         &kp SEMICOLON    &kp N0         &kp N1         &kp N2            &kp N3        &kp RA(Z)
                                                 &trans           &trans           &trans         &trans
             >;
@@ -165,10 +165,10 @@
 
         fun_layer {
             bindings = <
-&kp K_PLAY_PAUSE  &kp K_MUTE        &kp C_VOLUME_UP          &none           &kp C_BRI_UP    &bt BT_SEL 2  &kp F7  &kp F8  &kp F9  &kp F12
-&lh LCTRL K_PREV  &lh LSHFT K_NEXT  &lh LMETA K_VOLUME_DOWN  &lh LALT SPACE  &kp C_BRI_DN    &bt BT_SEL 1  &kp F4  &kp F5  &kp F6  &kp F11
-&bt BT_PRV        &bt BT_CLR        &out OUT_TOG             &bt BT_NXT      &none           &bt BT_SEL 0  &kp F1  &kp F2  &kp F3  &kp F10
-                                                             &trans          &trans          &trans        &trans
+&kp K_PLAY_PAUSE  &kp K_MUTE        &kp C_VOLUME_UP          &kp C_BRIGHTNESS_INC  &bt BT_SEL 2    &bt BT_SEL 4    &kp F7  &kp F8  &kp F9  &kp F12
+&lh LCTRL K_PREV  &lh LSHFT K_NEXT  &lh LMETA K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &bt BT_SEL 1    &bt BT_SEL 3    &kp F4  &kp F5  &kp F6  &kp F11
+&bt BT_PRV        &bt BT_CLR        &out OUT_TOG             &bt BT_NXT            &bt BT_SEL 0    &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3  &kp F10
+                                                             &trans                &trans          &trans          &trans
             >;
         };
     };
