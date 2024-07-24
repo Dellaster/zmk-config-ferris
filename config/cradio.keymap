@@ -107,13 +107,13 @@
         combo_z {
             bindings = <&kp Z>;
             key-positions = <1 0>;
-            layers = <o>;
+            layers = <0>;
         };
 
         combo_q {
             bindings = <&kp Q>;
             key-positions = <1 2>;
-            layers = <o>;
+            layers = <0>;
         };
     };
 
