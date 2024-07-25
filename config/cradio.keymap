@@ -90,6 +90,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        fslash_plus: fslash_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FSLASH_PLUS";
+            bindings = <&kp SLASH>, <&kp PLUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     conditional_layers {
@@ -133,9 +142,9 @@
 
         default_layer {
             bindings = <
-&kp J  &kp G  &kp M  &kp P         &kp V              &kp SEMICOLON  &dot_hash        &kp SLASH  &quo_ques  &apos_excl
-&kp R  &kp S  &kp N  &kp D         &kp B              &comma_amp     &kp A            &kp E      &kp I      &kp H
-&kp X  &kp F  &kp L  &kp C         &kp W              &kp MINUS      &kp U            &kp O      &kp Y      &kp K
+&kp J  &kp G  &kp M  &kp P         &kp V              &kp SEMICOLON  &dot_hash        &fslash_plus  &quo_ques  &apos_excl
+&kp R  &kp S  &kp N  &kp D         &kp B              &comma_amp     &kp A            &kp E         &kp I      &kp H
+&kp X  &kp F  &kp L  &kp C         &kp W              &kp MINUS      &kp U            &kp O         &kp Y      &kp K
                      &mt LSHIFT T  &lt 1 BACKSPACE    &lt 2 ENTER    &mt RSHFT SPACE
             >;
         };
