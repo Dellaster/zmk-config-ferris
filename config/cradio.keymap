@@ -119,6 +119,7 @@
         combo_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <10 0>;
+            layers = <1 2>;
         };
     };
 
